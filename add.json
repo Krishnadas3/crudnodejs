@@ -1,0 +1,22 @@
+[
+  {
+    "pname": "Krishnadas",
+    "Size": "654",
+    "Gender": "male",
+    "Brand": "65432",
+    "Outfits": "Hoodies",
+    "Email": "krishnadasp004@gmail.com",
+    "PhoneNumber": "8606009",
+    "AppointmentDateTime": "2023-09-29T23:59"
+  },
+  {
+    "pname": "Krishnadas",
+    "Size": "68",
+    "Gender": "male",
+    "Brand": "levis",
+    "Outfits": "Jeans",
+    "Email": "krishnadasp004@gmail.com",
+    "PhoneNumber": "8606009733",
+    "AppointmentDateTime": "2023-09-18T11:37"
+  }
+]
