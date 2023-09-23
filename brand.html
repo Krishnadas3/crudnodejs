@@ -87,6 +87,7 @@
             const form = document.getElementById("appointmentForm");
             form.addEventListener("submit", async function (event) {
                 event.preventDefault();
+                validform()
                 const data = {
                     pname: document.getElementById("pname").value,
                     Size: document.getElementById("Size").value,
@@ -162,6 +163,23 @@
                 console.error("Error fetching or setting patient data:", error);
             }
         });
+
+        function validform(){
+            const phoneNumber = document.getElementById('phoneNumber').value
+            const Size = parseInt(document.getElementById('Size').value);
+            let errormess = '';
+            if(!/^\d{10}$/.test(phoneNumber)){
+                errormess += 'please enter a valid phone number (up to 10 digit)'
+            }
+            if (isNaN(Size) || Size <= 0 || Size > 100) {
+            errormess += 'Please enter a valid Size between 1 and 100';
+        }
+            if(errormess){
+                alert(errormess);
+                e.preventDefault();
+                return false;
+            }
+        }
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
