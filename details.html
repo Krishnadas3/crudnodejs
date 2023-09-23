@@ -163,10 +163,14 @@
     function formValid(){
         const phoneNumber = document.getElementById('phoneNumber').value;
         const email = document.getElementById('email').value;
+        const Outfits = document.getElementById('Outfits').value
         const Size = parseInt(document.getElementById('Size').value);
+        // const Outfits = document.getElementById('Outfits').value;
+        const gender = document.getElementById('gender').value
+        const AppointmentDateTime = document.getElementById('AppointmentDateTime').value
         let errorMessSize = '';
-
-        if (!/^\d{1,10}$/.test(phoneNumber)) {
+      
+        if (!/^\d{10}$/.test(phoneNumber)) {
             errorMessSize += 'Please enter a valid phone number (up to 10 digits).\n';
         }
         
@@ -174,15 +178,32 @@
             errorMessSize += 'Please enter a valid email address.\n';
         }
 
-        if (isNaN(Size) || Size <= 0 || Size > 100) {
-            errorMessSize += 'Please enter a valid Size between 1 and 100.\n';
+        if(Outfits==""){
+            errorMessSize+="choose any one"
         }
 
+        if (isNaN(Size) || Size <= 0 || Size > 100) {
+            errorMessSize += 'Please enter a valid Size between 1 and 100';
+        }
+
+        if(gender==""){
+            errorMessSize+="please select one"
+        }
+
+        if(Outfits==""){
+            errorMessSize="choose anyone"
+        }
+
+        if(AppointmentDateTime==""){
+            errorMessSize="enter date"
+        }
+       
         if (errorMessSize) {
             alert(errorMessSize);
             e.preventDefault();
-            return ;
+            return false;
         }
+       
     }
 </script>
 

@@ -1,42 +1,22 @@
 [
   {
     "pname": "Krishnadas",
-    "Size": "44",
-    "Gender": "male",
+    "Size": "45",
+    "Gender": "female",
     "Brand": "levis",
     "Outfits": "Jeans",
     "Email": "krishnadasp004@gmail.com",
     "PhoneNumber": "8606009733",
-    "AppointmentDateTime": "2023-09-30T16:48"
+    "AppointmentDateTime": ""
   },
   {
     "pname": "Krishnadas",
-    "Size": "4",
-    "Gender": "",
+    "Size": "445",
+    "Gender": "male",
     "Brand": "levis",
-    "Outfits": "",
+    "Outfits": "Hoodies",
     "Email": "krishnadasp004@gmail.com",
     "PhoneNumber": "8606009733",
-    "AppointmentDateTime": "2023-09-29T16:48"
-  },
-  {
-    "pname": "Krishnadas",
-    "Size": "45",
-    "Gender": "",
-    "Brand": "levis",
-    "Outfits": "",
-    "Email": "krishnadasp004@gmail.com",
-    "PhoneNumber": "8606009733",
-    "AppointmentDateTime": "2023-09-30T16:50"
-  },
-  {
-    "pname": "Krishnadas",
-    "Size": "45",
-    "Gender": "female",
-    "Brand": "levis",
-    "Outfits": "Jackets",
-    "Email": "krishnadasp004@gmail.com",
-    "PhoneNumber": "8606009733",
-    "AppointmentDateTime": "2023-09-30T16:53"
+    "AppointmentDateTime": "2023-09-30T10:43"
   }
 ]
